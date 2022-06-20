@@ -1,0 +1,2 @@
+C:/Users/Alex Haurin/source/repos/Vulkan1/Vulkan/middleware/Include/GLM/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Alex Haurin/source/repos/Vulkan1/Vulkan/middleware/Include/GLM/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{61ccaec0-5542-41e6-82f4-f16865cc5c90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine">
+      <UniqueIdentifier>{40851345-e239-4bd6-9665-f4f779fd72f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Graphics">
+      <UniqueIdentifier>{d0035b57-3465-46b5-9035-d845ad224d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Graphics\Vulkan">
+      <UniqueIdentifier>{2688c360-c11e-4096-b9d4-c8c6296107c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="middleware">
+      <UniqueIdentifier>{0c2f3b62-97af-4220-b7ff-a618b9eb2bbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="middleware\JSONSDK">
+      <UniqueIdentifier>{ee24bff4-5ef4-418d-a14d-44933b113f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="middleware\ozz">
+      <UniqueIdentifier>{0148a870-2f76-48a2-a290-32989a4bf26a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Core">
+      <UniqueIdentifier>{42382b32-a9b9-44f1-8d8f-c7a369a6bdcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Core\Math">
+      <UniqueIdentifier>{25c67914-4866-4587-b9b6-7f5a9ee69f52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Physics">
+      <UniqueIdentifier>{f90bc63a-2fc8-4441-85a5-f171c4bacdc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Graphics\ImGuiLayer">
+      <UniqueIdentifier>{63940616-533b-4674-bc73-bbbb6e14887b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Graphics\Objects">
+      <UniqueIdentifier>{58735b8c-4aab-4ae5-b294-423e0b493f16}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Graphics\Vulkan\Vulkan.cpp">
+      <Filter>src\Engine\Graphics\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Graphics\Renderer.cpp">
+      <Filter>src\Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Camera.cpp">
+      <Filter>src\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Scene.cpp">
+      <Filter>src\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Entity.cpp">
+      <Filter>src\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\PhysicsEntity.cpp">
+      <Filter>src\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Graphics\ImGui\imgui.cpp">
+      <Filter>src\Engine\Graphics\ImGuiLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Graphics\ImGui\imgui_demo.cpp">
+      <Filter>src\Engine\Graphics\ImGuiLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Graphics\ImGui\imgui_draw.cpp">
+      <Filter>src\Engine\Graphics\ImGuiLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Graphics\ImGui\imgui_tables.cpp">
+      <Filter>src\Engine\Graphics\ImGuiLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Graphics\ImGui\imgui_widgets.cpp">
+      <Filter>src\Engine\Graphics\ImGuiLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Graphics\Vulkan\VulkanImgui.cpp">
+      <Filter>src\Engine\Graphics\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Graphics\ImGui\FileBrowser\ImGuiFileBrowser.cpp">
+      <Filter>src\Engine\Graphics\ImGuiLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\JSONSDK\jsoncpp.cpp">
+      <Filter>middleware\JSONSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\ozz\src\ozz_animation.cc">
+      <Filter>middleware\ozz</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\ozz\src\ozz_animation_offline.cc">
+      <Filter>middleware\ozz</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\ozz\src\ozz_animation_tools.cc">
+      <Filter>middleware\ozz</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\ozz\src\ozz_base.cc">
+      <Filter>middleware\ozz</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\ozz\src\ozz_geometry.cc">
+      <Filter>middleware\ozz</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\ozz\src\ozz_options.cc">
+      <Filter>middleware\ozz</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Physics\RigidBody.cpp">
+      <Filter>src\Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Graphics\Objects\Light.cpp">
+      <Filter>src\Engine\Graphics\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Graphics\Objects\Model.cpp">
+      <Filter>src\Engine\Graphics\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Graphics\Objects\Skeleton.cpp">
+      <Filter>src\Engine\Graphics\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Graphics\Objects\Vertex.cpp">
+      <Filter>src\Engine\Graphics\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Graphics\ImGui\imgui_impl_glfw.cpp">
+      <Filter>src\Engine\Graphics\ImGuiLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Graphics\ImGui\imgui_impl_vulkan.cpp">
+      <Filter>src\Engine\Graphics\ImGuiLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Engine.cpp">
+      <Filter>src\Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Engine\Graphics\Vulkan\Vulkan.h">
+      <Filter>src\Engine\Graphics\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Graphics\Renderer.h">
+      <Filter>src\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Camera.h">
+      <Filter>src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Scene.h">
+      <Filter>src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Entity.h">
+      <Filter>src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\PhysicsEntity.h">
+      <Filter>src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Graphics\Vulkan\VulkanObjects.h">
+      <Filter>src\Engine\Graphics\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Graphics\ImGui\imgui_internal.h">
+      <Filter>src\Engine\Graphics\ImGuiLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Graphics\Vulkan\VulkanImgui.h">
+      <Filter>src\Engine\Graphics\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Graphics\ImGui\FileBrowser\ImGuiFileBrowser.h">
+      <Filter>src\Engine\Graphics\ImGuiLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Graphics\ImGui\FileBrowser\Dirent\dirent.h">
+      <Filter>src\Engine\Graphics\ImGuiLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Graphics\Vulkan\VulkanDefines.h">
+      <Filter>src\Engine\Graphics\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Core\Core.h">
+      <Filter>src\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Core\Debug.h">
+      <Filter>src\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Core\SystemGuard.h">
+      <Filter>src\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Core\Math\Mat.h">
+      <Filter>src\Engine\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Core\Math\Math.h">
+      <Filter>src\Engine\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Core\Math\Vec.h">
+      <Filter>src\Engine\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Physics\RigidBody.h">
+      <Filter>src\Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Graphics\Objects\Light.h">
+      <Filter>src\Engine\Graphics\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Graphics\Objects\Model.h">
+      <Filter>src\Engine\Graphics\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Graphics\Objects\ModelData.h">
+      <Filter>src\Engine\Graphics\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Graphics\Objects\Skeleton.h">
+      <Filter>src\Engine\Graphics\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Graphics\Vulkan\VulkanInclude.h">
+      <Filter>src\Engine\Graphics\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Graphics\Objects\Vertex.h">
+      <Filter>src\Engine\Graphics\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Graphics\Objects\Objects.h">
+      <Filter>src\Engine\Graphics\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Engine.h">
+      <Filter>src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Graphics\Graphics.h">
+      <Filter>src\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Physics\Physics.h">
+      <Filter>src\Engine\Physics</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
